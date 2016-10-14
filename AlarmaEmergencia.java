@@ -13,16 +13,11 @@ public class AlarmaEmergencia extends Timbre {
 	}
 	
 	public String toString() {
-		 return super.toString() + "…" +
+		 return super.toString() + "emergencia" + "…" +
 		super.toString();
-		 }
+}
 		
 
 	
-	
-	
-	alarmaIncendio.m1(); // emergencia 1
-	alarmaIncendio.m2(); // alarma 1 / timbre 1
-	System.out.println(alarmaIncendio); // emergencia Ring...Ring...Ring...Ring
 }
-}
+
